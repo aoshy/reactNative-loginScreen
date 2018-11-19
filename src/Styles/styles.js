@@ -42,6 +42,7 @@ export default styles = StyleSheet.create({
         justifyContent: 'center'
     },
     tabView: {
+      marginTop: 50,  
       width: '80%',
       height: '60%'
       
