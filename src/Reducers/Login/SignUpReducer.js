@@ -12,7 +12,6 @@ const INITIAL_STATE = {
 
 export default (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        
         case UPDATE_SIGNUP_USERNAME_FIELD:
             return { ...state, signUpUsername: action.payload };
         case UPDATE_SIGNUP_EMAIL_FIELD:

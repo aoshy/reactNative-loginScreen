@@ -21,6 +21,7 @@ class SignUp extends Component {
                         style={styles.textInput}
                         onChangeText={ email => this.props.updateEmailField(email) }
                         value={this.props.email}
+                        autoCapitalize = 'none'
                     />
                     <View style={ styles.whiteLine } />
                     <Text style={[ styles.inputData , {marginTop: 20} ]} >USERNAME</Text>
@@ -28,6 +29,7 @@ class SignUp extends Component {
                         style={styles.textInput}
                         onChangeText={ username => this.props.updateUsernameField(username) }
                         value={this.props.username}
+                        autoCapitalize = 'none'
                     />
                     <View style={ styles.whiteLine } />
 

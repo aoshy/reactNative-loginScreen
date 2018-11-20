@@ -15,6 +15,7 @@ class SignIn extends Component {
                         style={styles.textInput}
                         onChangeText={ username => this.props.updateUsernameField(username) }
                         value={this.props.username}
+                        autoCapitalize = 'none'
                     />
                     <Text style={[ styles.inputData , {marginTop: 20} ]} >PASSWORD</Text>
                     <TextInput

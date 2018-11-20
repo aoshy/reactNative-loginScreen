@@ -10,7 +10,6 @@ const INITIAL_STATE = {
 
 export default (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        
         case UPDATE_SIGNIN_USERNAME_FIELD:
             return { ...state, signInUsername: action.payload };
         case UPDATE_SIGNIN_PASSWORD_FIELD:
